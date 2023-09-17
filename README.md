@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# Deploy, Mint ERC20 Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Hardhat use case.
 
-Try running some of the following tasks:
+Token Deployment: A streamlined script that allows for the deployment of a fully configurable ERC20 token on the Ethereum blockchain.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Token Minting: Integrated functionality to mint additional tokens post-deployment, offering flexibility in the token's supply.
+
+Vesting: A dedicated contract ensuring structured and phased token releases, promoting stability and fair distribution.
+
+Tests: Rigorous testing using test token.js to ensure every function operates securely and as expected.
